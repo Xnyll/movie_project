@@ -9,7 +9,7 @@ const MovieCard = ({ movieProp }) => {
         </div>
 
         <div>
-            <img src={movieProp.Poster !== 'N/A' ? movieProp.Poster : 'https://via.placeaholder.com/400'} alt={movieProp.Title}></img>
+            <img src={movieProp.Poster !== 'N/A' ? movieProp.Poster : 'https://dummyimage.com/400x400/bababa/0011ff.jpg&text=Image+not+found'} alt={movieProp.Title}></img>
         </div>
 
         <div>

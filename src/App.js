@@ -5,7 +5,7 @@ import SearchIcon from './search.svg';
 import MovieCard from './MovieCard';
 
 
-const API_URL = 'http://www.omdbapi.com?apikey=ef42fabc';
+const API_URL = 'https://www.omdbapi.com?apikey=ef42fabc';
 
 // const movie1 = {
     
@@ -30,7 +30,7 @@ const App = () => {
     }
 
     useEffect(() => {
-        searchMovies('Spiderman')
+        searchMovies('')
     }, []);
 
     return (
